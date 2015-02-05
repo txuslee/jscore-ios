@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2BCA35D45E545F635E484374"
+               BlueprintIdentifier = "C5FD1474A2118D8B9C5AA60E"
                BuildableName = "libPods-JSSpikeTests-OCMock.a"
                BlueprintName = "Pods-JSSpikeTests-OCMock"
                ReferencedContainer = "container:Pods.xcodeproj">

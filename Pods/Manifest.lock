@@ -25,9 +25,12 @@ PODS:
   - CocoaLumberjack/Core (1.9.2)
   - CocoaLumberjack/Extensions (1.9.2):
     - CocoaLumberjack/Core
+  - HexColors (2.2.1)
   - JSCoreBom (1.1.1)
   - OCHamcrest (4.1.1)
   - OCMock (3.1.2)
+  - TSMessages (0.9.12):
+    - HexColors
 
 DEPENDENCIES:
   - AFNetworking
@@ -35,12 +38,15 @@ DEPENDENCIES:
   - JSCoreBom
   - OCHamcrest
   - OCMock
+  - TSMessages
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
   CocoaLumberjack: 205769c032b5fef85b92472046bcc8b7e7c8a817
+  HexColors: 01384d2bbe8dc4ffa43c3b4135db6e976952d153
   JSCoreBom: 7917ae5ca9f8177729fea1efe40de46a218b9c2a
   OCHamcrest: af1c7c5ea345de69ea6c9c2958f65f3044e5c420
   OCMock: ecdd510b73ef397f2f97274785c1e87fd147c49f
+  TSMessages: b2b5dc71f65146387e51f2600bb0eb8f3a6c4ab8
 
 COCOAPODS: 0.36.0.beta.2

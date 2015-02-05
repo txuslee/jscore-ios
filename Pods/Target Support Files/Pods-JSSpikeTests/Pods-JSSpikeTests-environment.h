@@ -66,6 +66,12 @@
 #define COCOAPODS_VERSION_MINOR_CocoaLumberjack_Extensions 9
 #define COCOAPODS_VERSION_PATCH_CocoaLumberjack_Extensions 2
 
+// HexColors
+#define COCOAPODS_POD_AVAILABLE_HexColors
+#define COCOAPODS_VERSION_MAJOR_HexColors 2
+#define COCOAPODS_VERSION_MINOR_HexColors 2
+#define COCOAPODS_VERSION_PATCH_HexColors 1
+
 // JSCoreBom
 #define COCOAPODS_POD_AVAILABLE_JSCoreBom
 #define COCOAPODS_VERSION_MAJOR_JSCoreBom 1
@@ -83,4 +89,10 @@
 #define COCOAPODS_VERSION_MAJOR_OCMock 3
 #define COCOAPODS_VERSION_MINOR_OCMock 1
 #define COCOAPODS_VERSION_PATCH_OCMock 2
+
+// TSMessages
+#define COCOAPODS_POD_AVAILABLE_TSMessages
+#define COCOAPODS_VERSION_MAJOR_TSMessages 0
+#define COCOAPODS_VERSION_MINOR_TSMessages 9
+#define COCOAPODS_VERSION_PATCH_TSMessages 12
 

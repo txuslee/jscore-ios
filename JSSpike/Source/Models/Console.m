@@ -12,7 +12,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 - (void)log:(NSString *)string
 {
-    DDLogVerbose(@"js: %@", string);
+    DDLogVerbose(@"script%@: %@", [JSContext currentContext], string);
 }
 
 @end

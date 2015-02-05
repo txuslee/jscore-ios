@@ -25,7 +25,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MiH-fS-n6s">
                                 <rect key="frame" x="56" y="246" width="528" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="email" translatesAutoresizingMaskIntoConstraints="NO" id="Lac-FJ-CBf">
                                 <rect key="frame" x="15" y="201" width="30" height="30"/>
@@ -46,13 +46,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="sVd-eO-4MW" secondAttribute="centerX" id="8on-DW-aVp"/>
-                            <constraint firstItem="MiH-fS-n6s" firstAttribute="centerX" secondItem="hdR-bG-7ZC" secondAttribute="centerX" id="Lb2-zP-IvB"/>
-                            <constraint firstItem="Lac-FJ-CBf" firstAttribute="centerX" secondItem="ykF-82-ePv" secondAttribute="centerX" id="XyQ-z1-p2v"/>
+                            <constraint firstItem="hdR-bG-7ZC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="EyU-vJ-MRA"/>
+                            <constraint firstItem="MiH-fS-n6s" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="R0v-ge-CZ6"/>
+                            <constraint firstItem="hdR-bG-7ZC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="XcZ-tC-aan"/>
                             <constraint firstItem="MiH-fS-n6s" firstAttribute="centerY" secondItem="ykF-82-ePv" secondAttribute="centerY" id="dBL-yh-yaR"/>
-                            <constraint firstAttribute="centerX" secondItem="hdR-bG-7ZC" secondAttribute="centerX" id="itc-c9-ddL"/>
                             <constraint firstItem="sVd-eO-4MW" firstAttribute="top" secondItem="MiH-fS-n6s" secondAttribute="bottom" constant="20" id="ntE-XR-MrZ"/>
-                            <constraint firstItem="hdR-bG-7ZC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="uWN-iN-0fJ"/>
-                            <constraint firstItem="MiH-fS-n6s" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="xMG-ad-u44"/>
                             <constraint firstItem="Lac-FJ-CBf" firstAttribute="centerY" secondItem="hdR-bG-7ZC" secondAttribute="centerY" id="xsX-Y4-Ls7"/>
                         </constraints>
                     </view>

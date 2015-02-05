@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6E0457195C3B58E2AE50F17F"
+               BlueprintIdentifier = "C64DD55F3F4B69F151B71AAC"
                BuildableName = "libPods-JSCoreBom.a"
                BlueprintName = "Pods-JSCoreBom"
                ReferencedContainer = "container:Pods.xcodeproj">

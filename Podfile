@@ -3,6 +3,7 @@ platform :ios, '7.0'
 
 pod "AFNetworking"
 pod 'CocoaLumberjack'
+pod "TSMessages"
 pod 'JSCoreBom'
 
 target "JSSpikeTests" do
