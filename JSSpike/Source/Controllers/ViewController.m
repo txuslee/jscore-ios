@@ -34,18 +34,6 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
     {
         DDLogVerbose(@"JS Error: %@", exception);
     };
-    self.context[@"XMLHttpRequest"] = [XmlHttpRequest class];
-    self.context[@"console"] = [[Console alloc] init];
-    self.context[@"x"] = @5;
-
-    [self.context evaluateScript:@"console.log(x + x)"];
-
-    // the path to the script
-    NSString *scriptFilePath = [[NSBundle mainBundle] pathForResource:@"weatherRequest" ofType:@"js"];
-    DDLogVerbose(@"%@", scriptFilePath);
-    // the contents of the script
-    NSString *scriptFileContents = [NSString stringWithContentsOfFile:scriptFilePath encoding:NSUTF8StringEncoding error:nil];
-    [self.context evaluateScript:scriptFileContents];
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,5 +42,10 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)onLoginButtonClick:(id)sender
+{
+
+}
 
 @end
